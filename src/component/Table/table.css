@@ -1,0 +1,46 @@
+#table-wrapper {
+  background-color: #fff;
+  margin-top: -15px;
+  box-shadow: 2px 2px #d5d3d3;
+}
+
+table {
+  width: 725px;
+  padding: 10 0 !important;
+}
+
+.checkboxes {
+  width: 3%;
+  padding-left: 4%;
+}
+td {
+  line-height: 50px;
+}
+.carName {
+  width: 60%;
+  padding-left: 6%;
+  text-align: left;
+}
+
+.carId {
+  width: 4%;
+  padding-right: 4%;
+}
+
+input[type="checkbox"] {
+  accent-color: #fff;
+  position: relative;
+  width: 23px;
+  height: 23px;
+  top: 4px;
+}
+input[type="checkbox"]::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 23px;
+  height: 23px;
+  border: 2px solid #000;
+  border-radius: 3px;
+}
